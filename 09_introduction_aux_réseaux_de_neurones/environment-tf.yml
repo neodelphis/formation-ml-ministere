@@ -1,0 +1,19 @@
+name: tf
+channels:
+  - defaults
+  - conda-forge
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.9.23
+  - jupyterlab=4.4.6
+  - notebook=7.4.5
+  - scikit-learn=1.6.1
+  - scipy=1.13.1
+  - pip=26.0.1
+  - pip:
+      - tensorflow==2.20.0
+      - keras==3.10.0
+      - matplotlib==3.9.4
+      - h5py==3.14.0
+      - pillow==11.3.0
